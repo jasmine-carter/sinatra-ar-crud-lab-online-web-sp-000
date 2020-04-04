@@ -1,6 +1,6 @@
 <h1>All Articles</h1>
 
 <% @articles.each_with_index do |article, i|%>
-<h5>Article Title: <%="#{article.title}"%><h5>
+<h5>Article Title: <%="#{article.title}"%><h5><br>
 <p><%="#{article.content}"%><p>
 <%end%>
